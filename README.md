@@ -37,6 +37,8 @@ const Component = props =>
 
 * `base screen size`  
 Guidline screen size is set to iPhone 6 screen size ( 375 x 667 ) but you can change them using "react-native-config" library by setting `BASE_WIDTH` and `BASE_HEIGHT` in the config file.
+* `resize mode`
+Resize mode can be given in config file and can be one of the following values: ['contain', 'cover', 'width', 'height'], the default value is 'contain'
 * `scale(size: number)`  
 Will return linear scaled result of the provided size, based on your device's screen width.
 * `verticalScale(size: number)`  
